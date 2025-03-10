@@ -77,5 +77,10 @@ While the core functionality of the URL Shortener is complete, a few additional 
     docker-compose up
     ```   
 
+    clean up:
+    ```bash
+   docker-compose down --rmi all --volumes --remove-orphans
+   ```
+
 5. Access the App:
    Open your browser at http://localhost:3000
