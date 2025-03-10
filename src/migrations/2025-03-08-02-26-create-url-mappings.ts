@@ -11,7 +11,7 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       originalUrl: {
-        type: Sequelize.STRING,
+        type: Sequelize.TEXT,
         allowNull: false
       },
       slug: {
