@@ -6,19 +6,33 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "docker-up": "docker-compose up --build",
+    "test": "jest"
   },
   "dependencies": {
+    "dotenv": "^16.4.7",
+    "next": "15.2.1",
+    "pg": "^8.13.3",
+    "pg-hstore": "^2.3.4",
+    "rate-limiter-flexible": "^5.0.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.1"
+    "sequelize": "^6.37.6",
+    "sequelize-typescript": "^2.1.6",
+    "testcontainers": "^10.18.0",
+    "umzug": "^3.8.2"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
+    "@types/jest": "^29.5.14",
     "@types/node": "^20",
+    "@types/pg": "^8.11.11",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "jest": "^29.7.0",
+    "tailwindcss": "^4",
+    "ts-jest": "^29.2.6",
+    "typescript": "^5"
   }
 }
