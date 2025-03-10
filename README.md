@@ -63,7 +63,6 @@ While the core functionality of the URL Shortener is complete, a few additional 
     DB_USER=postgres
     DB_PASSWORD=password
     DB_NAME=url_shortener
-    DATABASE_URL=postgresql://postgres:password@db:5432/url_shortener?schema=public
     BASE_URL=http://localhost:3000
     ```
 
